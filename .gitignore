@@ -1,0 +1,63 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambiente virtual
+venv/
+env/
+.venv/
+
+# Variáveis de ambiente
+.env
+.env.*
+
+# Arquivos de configuração local
+*.local
+
+# Logs
+*.log
+
+# Banco de dados local (SQLite, caso use)
+*.sqlite3
+*.db
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de IDE/editor
+.vscode/
+.idea/
+
+# Cache de testes
+.pytest_cache/
+
+# Coverage / testes
+htmlcov/
+.coverage
+.coverage.*
+.cache
+
+# Build / distribuição
+build/
+dist/
+*.egg-info/
+
+# Mypy
+.mypy_cache/
+
+# Pyre
+.pyre/
+
+# Ruff / lint
+.ruff_cache/
+
+# Docker (opcional, se usar)
+*.pid
+*.sock
+
+# Arquivos temporários
+*.swp
+*.swo
+*~
