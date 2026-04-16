@@ -1,11 +1,14 @@
 from fastapi import FastAPI
 from fastapi.responses import HTMLResponse
+from app.rotas import cliente
 
 app = FastAPI(
     title='Techlog Solution API',
     description='CRM para techlog Solution',
     version='1.0.0',
 )
+
+app.include_router(cliente.router)
 
 @app.get("/")
 def read_root():
